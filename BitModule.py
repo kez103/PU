@@ -3,7 +3,7 @@ import pyotp
 
 
 apiKey = 'b0aec946-4b15-4985-99fa-98e0b1b1dec4'
-code = "WJIPH5QE3O6IQBA7"
+code = 'WJIPH5QE3O6IQBA7'
 
 
 def CABO(appID):  # Cancel All Buy Orders
