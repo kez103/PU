@@ -8,7 +8,7 @@ code = 'WJIPH5QE3O6IQBA7'
 
 def CABO(appID):  # Cancel All Buy Orders
 
-    totp = pyotp.TOTP(code)                # Секретный код
+    totp = pyotp.TOTP(code)
 
     url = 'https://bitskins.com/api/v1/get_active_buy_orders/?api_key='\
           + apiKey + '&code=' + totp.now() + '&app_id=' + appID
